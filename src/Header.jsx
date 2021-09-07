@@ -13,6 +13,7 @@ const Header = () => {
           to={{ pathname: "/" }}
         />
         <Menu.Item
+          position="right"
           id="about-tab"
           name="about me"
           as={NavLink}
