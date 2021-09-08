@@ -6,7 +6,7 @@ import About from "./About";
 import Projects from "./Projects";
 import { Switch, Route } from "react-router-dom";
 
-function App() {
+function Navigation() {
   return (
     <>
       <Header />
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Navigation;

@@ -9,6 +9,7 @@ const Header = () => {
         <Menu.Item
           id="header"
           name="my portfolio"
+          icon="briefcase"
           as={Link}
           to={{ pathname: "/" }}
         />
