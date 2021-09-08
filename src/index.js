@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import "./styles/index.css";
+import Navigation from "./components/Navigation";
 import reportWebVitals from "./reportWebVitals";
 import "semantic-ui-css/semantic.min.css";
 import { BrowserRouter } from "react-router-dom";
 
+
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <Navigation />
   </BrowserRouter>,
   document.getElementById("root")
 );

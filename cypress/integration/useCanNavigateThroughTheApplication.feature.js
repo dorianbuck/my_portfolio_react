@@ -36,6 +36,30 @@ describe("User can navigate the app", () => {
       cy.get("#hello").should("not.exist");
     });
   });
+
+  describe("to Contact tab and it", () => {
+    beforeEach(() => {
+      cy.get("#contact-tab").click();
+    });
+    it("displays an image within", () => {
+      cy.get(".image").should("exist");
+    });
+    it("displays Contact header", () => {
+      cy.get("#contact-header").should("contain", "Contact");
+    });
+    it("displays component name in url", () => {
+      cy.url().should("contain", "contact");
+    });
+    it("does not display About Me header", () => {
+      cy.get("#about-header").should("not.exist");
+    });
+    it("does not display Hello world", () => {
+      cy.get("#hello").should("not.exist");
+    });
+    it("does not display My Projects", () => {
+      cy.get("#project-header").should("not.exist");
+    });
+  });
   describe("back to My Portfolio/Hello tab and it", () => {
     beforeEach(() => {
       cy.get("#about-tab").click();
