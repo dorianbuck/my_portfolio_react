@@ -9,9 +9,9 @@ const Header = () => {
         <Menu.Item
           id="header"
           name="my portfolio"
-          icon="briefcase"
           as={Link}
           to={{ pathname: "/" }}
+          icon="briefcase"
         />
         <Menu.Item
           position="right"
@@ -25,6 +25,12 @@ const Header = () => {
           name="my projects"
           as={NavLink}
           to={{ pathname: "/projects" }}
+        />
+        <Menu.Item
+          id="contact-tab"
+          name="Contact"
+          as={NavLink}
+          to={{ pathname: "/contact" }}
         />
       </Menu>
     </Segment>

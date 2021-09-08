@@ -6,7 +6,7 @@ const About = () => {
     <Container>
       <h1 id="about-header">About Me</h1>
       <p>
-      PROFILE<p></p>
+      
 With a background in management, serving as a boat captain and working in sales, the
 time has come to switch it up. My passion for <code>coding</code>, technology and problem solving
 lead me to this new career. I plan to contribute by being a good team player, lead when

@@ -41,11 +41,14 @@ describe("User can navigate the app", () => {
     beforeEach(() => {
       cy.get("#contact-tab").click();
     });
+    it("displays an image within", () => {
+      cy.get(".image").should("exist");
+    });
     it("displays Contact header", () => {
-      cy.get("#Contact-header").should("contain", "Contact");
+      cy.get("#contact-header").should("contain", "Contact");
     });
     it("displays component name in url", () => {
-      cy.url().should("contain", "Contact");
+      cy.url().should("contain", "contact");
     });
     it("does not display About Me header", () => {
       cy.get("#about-header").should("not.exist");
