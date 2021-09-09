@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Image, Segment } from "semantic-ui-react";
-import bgColor from "../images/bgColor.png";
+import JobImg from "../images/job.svg";
 
 const Hello = () => {
   return (
@@ -14,11 +14,11 @@ const Hello = () => {
       >
         <h1 id="hello">Welcome</h1>
         <p>
-          This is my simple portfolio! Within you find a small collection with
-          some of projects I've been working on. Feel free to conatct me with
+          This is my simple portfolio! Within you'll find a small collection with
+          some of projects I've been working on. Feel free to contact me with
           any questions you might have.
         </p>
-        <Image src={bgColor} alt="bgColor" size="large" rounded />
+        <Image src={JobImg} alt="working" centered/>
       </Segment>
     </Container>
   );
