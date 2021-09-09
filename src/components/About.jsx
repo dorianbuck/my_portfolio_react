@@ -3,7 +3,7 @@ import { Container } from "semantic-ui-react";
 
 const About = () => {
   return (
-    <Container text>
+    <Container text >
       <h1 id="about-header">About Me</h1>
       <p>
       
