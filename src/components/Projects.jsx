@@ -18,7 +18,7 @@ const Projects = () => {
     );
   });
   return (
-    <Container>
+    <Container textAlign="center">
       <h1 id="projects-header">My Projects</h1>
       <Grid padded container textAlign="center">{projectsList}</Grid>
     </Container>
