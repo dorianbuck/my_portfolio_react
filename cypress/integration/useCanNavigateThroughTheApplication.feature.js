@@ -65,7 +65,7 @@ describe("User can navigate the app", () => {
       cy.get("#about-tab").click();
       cy.get("#header").click();
     });
-    it("displays Hello World", () => {
+    it("displays Welcome", () => {
       cy.get("#hello").should("contain", "Welcome");
     });
     it("displays correct url", () => {

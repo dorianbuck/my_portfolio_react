@@ -8,7 +8,7 @@ const Contact = () => {
     <Image src={contactImage} alt="contact"
   as='a'
   size='medium'
-  href='http://google.com'
+  href='mailto:dorianbuck@protonmail.com'
   target='_blank'
 /></Container>;
 };
