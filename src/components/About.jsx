@@ -23,7 +23,7 @@ const About = () => {
           part of a productive team.
         </p>
         <div>
-          <img src={DevImg} alt="developer image" />
+          <img src={DevImg} />
         </div>
       </Segment>
     </Container>
