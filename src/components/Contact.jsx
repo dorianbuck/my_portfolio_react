@@ -22,7 +22,9 @@ const Contact = () => {
           href="mailto:dorianbuck@protonmail.com"
           target="_blank"
         />
-        <div><img src={BeerImg} alt="beer" /></div>
+        <div>
+          <img src={BeerImg} alt="beer" />
+        </div>
       </Segment>
     </Container>
   );
