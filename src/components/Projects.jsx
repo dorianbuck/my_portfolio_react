@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <Container>
       <h1 id="projects-header">My Projects</h1>
-      <Grid>{projectsList}</Grid>
+      <Grid padded container textAlign="center">{projectsList}</Grid>
     </Container>
   );
 };
