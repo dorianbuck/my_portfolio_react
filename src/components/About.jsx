@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Segment } from "semantic-ui-react";
+import { Container, Segment, Image } from "semantic-ui-react";
 import DevImg from "../images/dev.svg";
 
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
           <strong>Agile Methodology</strong> of software development.
         </p>
         <div>
-          <img src={DevImg} alt="developer" />
+          <Image src={DevImg} alt="developer" centered />
         </div>
       </Segment>
     </Container>

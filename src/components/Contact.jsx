@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Image, Segment } from "semantic-ui-react";
-import contactImage from "../images/contact.png";
 import BeerImg from "../images/beer.svg";
 
 const Contact = () => {
   return (
-    <Container>
+    <Container text>
       <Segment
         padded="very"
         style={{
@@ -15,16 +14,14 @@ const Contact = () => {
       >
         <h1 id="contact-header">Contact</h1>
         <Image
-          src={contactImage}
+          centered
+          src={BeerImg}
           alt="contact"
           as="a"
-          size="small"
+          size="medium"
           href="mailto:dorianbuck@protonmail.com"
           target="_blank"
         />
-        <div>
-          <img src={BeerImg} alt="beer" />
-        </div>
       </Segment>
     </Container>
   );
