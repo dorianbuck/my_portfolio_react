@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Segment } from "semantic-ui-react";
+import DevImg from '../images/dev.svg'
 
 const About = () => {
   return (
@@ -21,6 +22,9 @@ const About = () => {
           self-manage during independent projects, as well as collaborate as
           part of a productive team.
         </p>
+        <div>
+          <img src={DevImg} alt="developer image" />
+        </div>
       </Segment>
     </Container>
   );

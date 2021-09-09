@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Image, Segment } from "semantic-ui-react";
 import contactImage from "../images/contact.png";
+import BeerImg from "../images/beer.svg";
 
 const Contact = () => {
   return (
@@ -21,6 +22,7 @@ const Contact = () => {
           href="mailto:dorianbuck@protonmail.com"
           target="_blank"
         />
+        <div><img src={BeerImg} alt="beer" /></div>
       </Segment>
     </Container>
   );
