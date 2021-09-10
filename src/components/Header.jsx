@@ -95,6 +95,14 @@ export default class MenuTabularOnTop extends Component {
           onClick={this.handleItemClick}
         />
         <Menu.Item
+          id="resume-tab"
+          name="My Resume"
+          as={NavLink}
+          to={{ pathname: "/resume" }}
+          active={activeItem === "my resume"}
+          onClick={this.handleItemClick}
+        />
+        <Menu.Item
           id="contact-tab"
           name="Contact"
           as={NavLink}
