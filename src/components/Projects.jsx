@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Grid, Segment } from "semantic-ui-react";
 import ProjectCard from "./ProjectCard";
 import axios from "axios";
+import Fade from 'react-reveal/Fade'
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -25,7 +26,9 @@ const Projects = () => {
             "linear-gradient(to right, rgb(245, 223, 77) 0%, rgb(147, 149, 151) 100%)",
         }}
       >
+        <Fade top Big>
       <h1 id="projects-header">My Projects</h1>
+      </Fade>
       <Grid padded container textAlign="center">{projectsList}</Grid>
     </Segment>
     </Container>
