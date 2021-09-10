@@ -8,7 +8,7 @@
     "name": "My First Website",
     "image": "https://picsum.photos/200",
     "description": "This was my first project.",
-    "popupHeader": "Sample text1",
+    "popupHeader": "Click me for more Info!",
     "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
   },
   {
@@ -16,7 +16,7 @@
     "name": "FizzBuzz",
     "image": "https://picsum.photos/200",
     "description": "Creating ruby backend application is fun.",
-    "popupHeader": "Sample text2",
+    "popupHeader": "Click me for more Info!",
     "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
   },
   {
@@ -24,7 +24,7 @@
     "name": "Mobile UX",
     "image": "https://picsum.photos/200",
     "description": "I like to design for the mobile platform",
-    "popupHeader": "Sample text3",
+    "popupHeader": "Click me for more Info!",
     "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
   }
 ]

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Image, Segment } from "semantic-ui-react";
 import BeerImg from "../images/beer.svg";
+import ContactForm from './ContactForm'
 
 const Contact = () => {
   return (
@@ -14,6 +15,7 @@ const Contact = () => {
       >
 
         <h1 id="contact">Contact</h1>
+        <div>{<ContactForm /> }</div>
         <Image
           centered
           src={BeerImg}

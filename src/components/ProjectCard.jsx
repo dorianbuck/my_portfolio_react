@@ -3,7 +3,7 @@ import { Card, Image, Popup } from "semantic-ui-react";
 
 const ProjectCard = ({ project }) => {
   return (
-    <Popup
+    <Popup 
       trigger={
         <Card>
           <Image src={project.image} wrapped ui={false} />
@@ -16,7 +16,7 @@ const ProjectCard = ({ project }) => {
       }
     >
       <Popup.Content>
-        <Popup.Header>{project.popupHeader}</Popup.Header>
+        <Popup.Header inverted >{project.popupHeader}</Popup.Header>
       </Popup.Content>
     </Popup>
   );

@@ -6,6 +6,7 @@ import About from "./About";
 import Projects from "./Projects";
 import { Switch, Route } from "react-router-dom";
 import Contact from "./Contact";
+import ContactForm from "./ContactForm";
 
 function Navigation() {
   return (

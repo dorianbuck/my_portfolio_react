@@ -28,12 +28,7 @@ footer {
 
 .container {
   margin-top: 4em;
-  /* background: rgb(147, 149, 151);
-  background: radial-gradient(
-    circle,
-    rgba(147, 149, 151, 1) 0%,
-    rgba(245, 223, 77, 1) 100%
-  ); */
+  
 }
 
 code {
@@ -45,9 +40,3 @@ code {
 
 
 
-/* html,
-body,
-#root,
-#root > div {
-  height: 100%;
-} */
