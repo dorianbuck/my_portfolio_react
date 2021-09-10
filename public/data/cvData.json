@@ -37,7 +37,7 @@
       "details": "Areas of duties inluded custom building of kayaks, training of new personnel and managing the sales floor. As master boat builder I was responsible for the quality control of craftsmanship including plastic welding and repair of kayaks and boards using different construction techniques."
     }
   ],
-  "Skills": [
+  "skills": [
     {
       "id": 1,
       "img": "https://picsum.photos/200",
@@ -69,7 +69,7 @@
       "para": "jQuery"
     }
   ],
-  "Education": [
+  "education": [
     {
       "id": 1,
       "title": "Full Stack Web Developer - CraftAcademy",

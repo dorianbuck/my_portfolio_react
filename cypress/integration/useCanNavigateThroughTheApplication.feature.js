@@ -35,6 +35,9 @@ describe("User can navigate the app", () => {
     it("does not display Hello world", () => {
       cy.get("#hello").should("not.exist");
     });
+    it("does not display Contact header"), () => {
+      cy.get("#resume-header").should("not.exist");
+    };
   });
 
   describe("to Contact tab and it", () => {
@@ -77,5 +80,28 @@ describe("User can navigate the app", () => {
     it("does not display My Projects header", () => {
       cy.get("#projects-header").should("not.exist");
     });
+  });
+  describe("to Resume tab and it", () => {
+    beforeEach(() => {
+      cy.get("#resume-tab").click();
+    });
+    it("displays Resume header", () => {
+      cy.get("#resume").should("contain", "Resume");
+    });
+    it("displays component name in url", () => {
+      cy.url().should("contain", "resume");
+    });
+    it("does not display About Me header", () => {
+      cy.get("#about-header").should("not.exist");
+    });
+    it("does not display Hello world", () => {
+      cy.get("#hello").should("not.exist");
+    });
+    it("does not display My Projects", () => {
+      cy.get("#project-header").should("not.exist");
+    });
+    it("does not display Contact header"), () => {
+        cy.get("#resume-header").should("not.exist");
+      };
   });
 });
