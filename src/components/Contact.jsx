@@ -12,7 +12,8 @@ const Contact = () => {
             "linear-gradient(to right, rgb(245, 223, 77) 0%, rgb(147, 149, 151) 100%)",
         }}
       >
-        <h1 id="contact-header">Contact</h1>
+
+        <h1 id="contact">Contact</h1>
         <Image
           centered
           src={BeerImg}

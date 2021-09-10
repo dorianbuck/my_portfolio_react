@@ -45,7 +45,7 @@ describe("User can navigate the app", () => {
       cy.get(".image").should("exist");
     });
     it("displays Contact header", () => {
-      cy.get("#contact-header").should("contain", "Contact");
+      cy.get("#contact").should("contain", "Contact");
     });
     it("displays component name in url", () => {
       cy.url().should("contain", "contact");
