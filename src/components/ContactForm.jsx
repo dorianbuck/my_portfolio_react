@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Form } from 'semantic-ui-react'
+import { Container, Form, Button, TextArea } from "semantic-ui-react";
 
 const encode = (data) => {
   return Object.keys(data)
@@ -27,48 +27,41 @@ class ContactForm extends Component {
   handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const { name, email, message } = this.state;
+    const { name, email } = this.state;
     return (
-      <Form>
-      <form onSubmit={this.handleSubmit} netlify name="contact">
-        <input type="hidden" name="form-name" value="contact" />
-        <p>
-          <label>
-            Your Name:
+      <Container>
+        <Form onSubmit={this.handleSubmit} netlify name="contact">
+          <input type="hidden" name="form-name" value="contact" />
+          <Form.Field>
+            <label>Your Name</label>
             <input
               type="text"
               name="name"
               value={name}
               onChange={this.handleChange}
+              placeholder="Your name"
             />
-          </label>
-        </p>
-        <p>
-          <label>
-            Your Email:
+          </Form.Field>
+          <Form.Field>
+            <label>Your Email</label>
             <input
               type="email"
               name="email"
               value={email}
               onChange={this.handleChange}
+              placeholder="name@example.com"
             />
-          </label>
-        </p>
-        <p>
-          <label>
-            Message:
-            <textarea
-              name="message"
-              value={message}
-              onChange={this.handleChange}
-            />
-          </label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-        </form>
+          </Form.Field>
+          <Form.Field
+            label="Message"
+            control={TextArea}
+            placeholder="How can I help you?"
+            // value={message}
+            onChange={this.handleChange}
+          />
+          <Button type="submit">Send</Button>
         </Form>
+      </Container>
     );
   }
 }
