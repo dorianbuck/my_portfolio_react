@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container, Grid } from "semantic-ui-react";
+import { Container, Grid, Segment } from "semantic-ui-react";
 import ProjectCard from "./ProjectCard";
 import axios from "axios";
 
@@ -19,8 +19,15 @@ const Projects = () => {
   });
   return (
     <Container textAlign="center">
+      <Segment padded="very"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right, rgb(245, 223, 77) 0%, rgb(147, 149, 151) 100%)",
+        }}
+      >
       <h1 id="projects-header">My Projects</h1>
       <Grid padded container textAlign="center">{projectsList}</Grid>
+    </Segment>
     </Container>
   );
 };
