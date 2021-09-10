@@ -13,7 +13,7 @@ const Hello = () => {
             "linear-gradient(to right, rgb(245, 223, 77) 0%, rgb(147, 149, 151) 100%)",
         }}
       >
-        <Fade big>
+        <Fade top big>
           <h1 id="hello">Welcome</h1>
         </Fade>
         <Fade right>
