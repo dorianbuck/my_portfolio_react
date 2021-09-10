@@ -27,7 +27,7 @@ class ContactForm extends Component {
   handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const { name, email, message } = this.state;
+    const { name, email } = this.state;
     return (
       <Container>
         <Form onSubmit={this.handleSubmit} netlify name="contact">
@@ -52,13 +52,13 @@ class ContactForm extends Component {
               placeholder="name@example.com"
             />
           </Form.Field>
-          <Form.Field
+          <Form.TextArea
             label="Message"
             control={TextArea}
             placeholder="How can I help you?"
-            value={message}
+            // value={message}
             onChange={this.handleChange}
-          />
+            />
           <Button type="submit">Send</Button>
         </Form>
       </Container>
