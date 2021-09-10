@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Image, Segment } from "semantic-ui-react";
 import BeerImg from "../images/beer.svg";
-import ContactForm from './ContactForm'
+import ContactForm from "./ContactForm";
+import Fade from "react-reveal/Fade";
+import Bounce from "react-reveal/Bounce";
 
 const Contact = () => {
   return (
@@ -13,18 +15,23 @@ const Contact = () => {
             "linear-gradient(to right, rgb(245, 223, 77) 0%, rgb(147, 149, 151) 100%)",
         }}
       >
-
-        <h1 id="contact">Contact</h1>
-        <div>{<ContactForm /> }</div>
-        <Image
-          centered
-          src={BeerImg}
-          alt="contact"
-          as="a"
-          size="medium"
-          href="mailto:dorianbuck@protonmail.com"
-          target="_blank"
-        />
+        <Fade top big>
+          <h1 id="contact">Contact</h1>
+        </Fade>
+        <Bounce>
+          <div>{<ContactForm />}</div>
+        </Bounce>
+        <Fade right big>
+          <Image
+            centered
+            src={BeerImg}
+            alt="contact"
+            as="a"
+            size="medium"
+            href="mailto:dorianbuck@protonmail.com"
+            target="_blank"
+          />
+        </Fade>
       </Segment>
     </Container>
   );
