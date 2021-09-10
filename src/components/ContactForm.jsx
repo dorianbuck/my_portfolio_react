@@ -56,7 +56,7 @@ class ContactForm extends Component {
             label="Message"
             control={TextArea}
             placeholder="How can I help you?"
-            // value={message}
+            value={message}
             onChange={this.handleChange}
           />
           <Button type="submit">Send</Button>
