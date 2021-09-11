@@ -8,7 +8,6 @@ describe("User can see list of projects", () => {
       cy.get(".image").should("exist");
       cy.get(".header").should("contain", "My First Website");
       cy.get(".description").should("contain", "This was my first project.");
-      cy.get(".Card").invoke("show", "displays the card info overlay");
     });
   });
   it("displays the second project", () => {
@@ -19,7 +18,7 @@ describe("User can see list of projects", () => {
         "contain",
         "Creating ruby backend application is fun."
       );
-      cy.get(".Card").invoke("show", "displays the card info overlay");
+      
     });
   });
   it("displays the third project", () => {

@@ -1,7 +1,7 @@
 // import TimelineExperience from "./TimelineExperience";
 
 import React, { useEffect, useState } from "react";
-import { Container, Grid, Segment } from "semantic-ui-react";
+import { Container, Segment } from "semantic-ui-react";
 import ResumeCard from "./ResumeCard";
 import axios from "axios";
 import Fade from "react-reveal/Fade";
@@ -23,16 +23,20 @@ const Resume = () => {
   });
   return (
     <Container text>
-    <Segment 
+      <Fade top>
+        <h1 id="resume-header">My Resume</h1>
+      </Fade>
+      <Segment content piled
         padded="very"
         style={{
           backgroundImage:
             "linear-gradient(to right, rgb(245, 223, 77) 0%, rgb(147, 149, 151) 100%)",
         }}
       >
-      <div>{employmentList}</div>
+        <div>{employmentList}</div>
       </Segment>
-      </Container>
+      
+    </Container>
   );
 };
 
