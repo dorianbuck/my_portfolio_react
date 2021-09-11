@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Harbor Master, Pampas Marina AB, Stockholm",
+    "date": "2021-2018",
+    "details": "Utilized superior data visualizing and data management skills",
+    "icon": "work"
+  },
+  {
+    "id": 2,
+    "title": "Marinentreprenad tekniker, Pampas Marinentreprenad AB, Stockholm",
+    "date": "2018-2015",
+    "details": "Worked well independently and on a team to solve pr oblems",
+    "icon": "work"
+  },
+  {
+    "id": 3,
+    "title": "Specialist, Apple Inc, Pentagon City, Washington, D.C.",
+    "date": "2015-2014",
+    "details": "Served as a friendly, hardworking, and punctual employee.",
+    "icon": "work"
+  },
+  {
+    "id": 4,
+    "title": "Boat Captain, KoOlina Ocean Adventures, Honolulu",
+    "date": "2014-2013",
+    "details": "My responsibilties included overall safety for crew and customers on the boat and in the water. Attentiveness and the ability to make fast and difficult decisions were essential.",
+    "icon": "work"
+  },
+  {
+    "id": 5,
+    "title": "Boat Captain at Hawaiian Ocean Adventure/ Disney Aulani, Honolulu",
+    "date": "2014-2013",
+    "details": "Captain for tours in cooperation with Disney Aulani, part-time position. As Captain I sailed a handbuilt Hawaiian sailing canoe, taking tourist out on the west side of Oahu",
+    "icon": "work"
+  },
+  {
+    "id": 6,
+    "title": "Store Manager & Master boat builder at Go-Bananas Watersports, Honolulu",
+    "date": "2012-2008",
+    "details": "Areas of duties inluded custom building of kayaks, training of new personnel and managing the sales floor. As master boat builder I was responsible for the quality control of craftsmanship including plastic welding and repair of kayaks and boards using different construction techniques.",
+    "icon": "work"
+  }
+]

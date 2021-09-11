@@ -1,30 +1,28 @@
 
+   [
+    {
+      "id": 1,
+      "name": "My First Website",
+      "image": "https://picsum.photos/200",
+      "description": "This was my first project.",
+      "popupHeader": "Click me for more Info!",
+      "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
+    },
+    {
+      "id": 2,
+      "name": "FizzBuzz",
+      "image": "https://picsum.photos/200",
+      "description": "Creating ruby backend application is fun.",
+      "popupHeader": "Click me for more Info!",
+      "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
+    },
+    {
+      "id": 3,
+      "name": "Mobile UX",
+      "image": "https://picsum.photos/200",
+      "description": "I like to design for the mobile platform",
+      "popupHeader": "Click me for more Info!",
+      "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
+    }
+  ]
 
-
-[
-  
-  {
-    "id": 1,
-    "name": "My First Website",
-    "image": "https://picsum.photos/200",
-    "description": "This was my first project.",
-    "popupHeader": "Click me for more Info!",
-    "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
-  },
-  {
-    "id": 2,
-    "name": "FizzBuzz",
-    "image": "https://picsum.photos/200",
-    "description": "Creating ruby backend application is fun.",
-    "popupHeader": "Click me for more Info!",
-    "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
-  },
-  {
-    "id": 3,
-    "name": "Mobile UX",
-    "image": "https://picsum.photos/200",
-    "description": "I like to design for the mobile platform",
-    "popupHeader": "Click me for more Info!",
-    "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
-  }
-]

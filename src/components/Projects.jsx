@@ -10,7 +10,7 @@ const Projects = () => {
     axios.get("./data/projects.json").then((response) => {
       setProjects(response.data);
     });
-  }, []);
+  });
   let projectsList = projects.map((project) => {
     return (
       <div id={`project-${project.id}`} key={project.id}>

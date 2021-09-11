@@ -12,7 +12,7 @@ const About = () => {
           backgroundImage:
             "linear-gradient(to right, rgb(245, 223, 77) 0%, rgb(147, 149, 151) 100%)",
         }}
-      ><Fade top big>
+      ><Fade top>
         <h1 id="about-header">About Me</h1>
         </Fade>
         <Fade right big>

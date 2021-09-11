@@ -1,25 +1,26 @@
-import React from 'react'
-import { Card, Image, Popup } from "semantic-ui-react";
+import React from "react";
+import { Item, Label } from "semantic-ui-react";
 
-const ResumeCard = ({ resume }) => {
+
+
+const ResumeCard = ({ employment }) => {
   return (
-    // <Popup 
-      // trigger={
-        <Card>
-          
-          <Card.Content>
-            <Card.Header>{resume.title}</Card.Header>
+    <Item.Group divided link>
+      <Item>
+        <Item.Image size="tiny">{employment.icon}</Item.Image>
 
-            <Card.Description>{resume.details}{resume.date}</Card.Description>
-          </Card.Content>
-        </Card>
-    //   }
-    // >
-    //   <Popup.Content>
-    //     <Popup.Header inverted >{resume.popupHeader}</Popup.Header>
-    //   </Popup.Content>
-    // </Popup>
-  )
-}
+        <Item.Content>
+          <Item.Header as="a">{employment.title}</Item.Header>
 
-export default ResumeCard
+          <Item.Description>{employment.details}</Item.Description>
+          <Item.Extra>
+          <Label>{employment.date}</Label>
+            <Label icon="globe" content="Additional Languages" />
+          </Item.Extra>
+        </Item.Content>
+      </Item>
+    </Item.Group>
+  );
+};
+
+export default ResumeCard;

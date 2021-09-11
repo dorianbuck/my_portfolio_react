@@ -30,7 +30,6 @@ describe("User can see list of projects", () => {
         "contain",
         "I like to design for the mobile platform"
       );
-      cy.get(".Card").invoke("show", "displays the card info overlay");
     });
   });
 });
