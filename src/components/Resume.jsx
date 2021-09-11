@@ -26,16 +26,17 @@ const Resume = () => {
       <Fade top>
         <h1 id="resume-header">My Resume</h1>
       </Fade>
-      <Segment content piled
+      <Segment
+        content
+        piled
         padded="very"
         style={{
           backgroundImage:
             "linear-gradient(to right, rgb(245, 223, 77) 0%, rgb(147, 149, 151) 100%)",
         }}
       >
-        <div>{employmentList}</div>
+        {employmentList}
       </Segment>
-      
     </Container>
   );
 };
