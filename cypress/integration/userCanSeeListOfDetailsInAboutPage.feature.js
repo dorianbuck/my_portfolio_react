@@ -2,20 +2,17 @@ describe("User can see list of about details", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000");
     cy.get("#about-tab").click();
+    cy.get(".ui").trigger("mouseover");
+    cy.get(".popover").should("be.visible");
   });
-  it("displays the skills details", () => {
-    cy.get("skills").within(() => {
-      cy.get("img").should("exist");
-      cy.get("para").should("exist");
-    });
-  });
-  it("displays array of items in details section", () => {
+
+  it("displays a popup with more bio info", () => {
     cy.get("details").within(() => {
       cy.get("name").should("exist");
-      cy.get("nationality").should("contain", "Dorian Buck");
+      cy.get("name").should("contain", "Dorian Buck");
       cy.get("nationality").should("contain", "American & Swedish");
       cy.get("location").should("exist");
-      cy.url().should("contain", "https://goo.gl/maps/2sjjU2UfAYm184hZ8");
+      cy.url().should("contain", "Stockholm");
       cy.get("hobbies").should("exist");
       cy.get("hobbies").should(
         "contain",
