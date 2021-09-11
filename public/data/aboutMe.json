@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "img": "https://picsum.photos/200",
+    "para": "React"
+  },
+  {
+    "id": 2,
+    "img": "https://picsum.photos/200",
+    "para": "JS"
+  },
+  {
+    "id": 3,
+    "img": "https://picsum.photos/200",
+    "para": "HTML & CSS"
+  },
+  {
+    "id": 4,
+    "img": "https://picsum.photos/200",
+    "para": "Ruby"
+  },
+  {
+    "id": 5,
+    "img": "https://picsum.photos/200",
+    "para": "Git"
+  },
+  {
+    "id": 6,
+    "img": "https://picsum.photos/200",
+    "para": "jQuery"
+  },
+  {
+    "name": "Dorian Buck",
+    "nationality": "American & Swedish",
+    "location": "https://goo.gl/maps/2sjjU2UfAYm184hZ8",
+    "hobbies": "Watersports, Wintersports, riding motorcycle, travel, technology and being outdoors",
+    "lang": "English and Swedish",
+    "keyw": "Dynamic, Agile methodoligy, Flexable, Adaptable, Approchable and a Problemsolver",
+    "reference": "References available upon request"
+  }
+]

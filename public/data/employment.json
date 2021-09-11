@@ -1,44 +1,65 @@
 [
   {
     "id": 1,
-    "title": "Harbor Master, Pampas Marina AB, Stockholm",
-    "date": "2021-2018",
-    "details": "Utilized superior data visualizing and data management skills",
-    "icon": "work"
+    "title": "Full Stack Web Developer - CraftAcademy",
+    "date": "present-2021",
+    "details": "12 week coding bootcamp",
+    "image": "https://cdn.pixabay.com/photo/2020/03/06/08/17/graduation-hats-4906360_960_720.png"
   },
   {
     "id": 2,
-    "title": "Marinentreprenad tekniker, Pampas Marinentreprenad AB, Stockholm",
-    "date": "2018-2015",
-    "details": "Worked well independently and on a team to solve pr oblems",
-    "icon": "work"
+    "title": "Harbor Master, Pampas Marina AB, Stockholm",
+    "date": "2021-2018",
+    "details": "Utilized superior data visualizing and data management skills",
+    "image": "https://cdn.pixabay.com/photo/2018/08/15/09/52/programmer-3607627_960_720.png"
   },
   {
     "id": 3,
-    "title": "Specialist, Apple Inc, Pentagon City, Washington, D.C.",
-    "date": "2015-2014",
-    "details": "Served as a friendly, hardworking, and punctual employee.",
-    "icon": "work"
+    "title": "Marinentreprenad tekniker, Pampas Marinentreprenad AB, Stockholm",
+    "date": "2018-2015",
+    "details": "Worked well independently and on a team to solve pr oblems",
+    "image": "https://cdn.pixabay.com/photo/2018/08/15/09/52/programmer-3607627_960_720.png"
   },
   {
     "id": 4,
-    "title": "Boat Captain, KoOlina Ocean Adventures, Honolulu",
-    "date": "2014-2013",
-    "details": "My responsibilties included overall safety for crew and customers on the boat and in the water. Attentiveness and the ability to make fast and difficult decisions were essential.",
-    "icon": "work"
+    "title": "Specialist, Apple Inc, Pentagon City, Washington, D.C.",
+    "date": "2015-2014",
+    "details": "Served as a friendly, hardworking, and punctual employee.",
+    "image": "https://cdn.pixabay.com/photo/2018/08/15/09/52/programmer-3607627_960_720.png"
   },
   {
     "id": 5,
-    "title": "Boat Captain at Hawaiian Ocean Adventure/ Disney Aulani, Honolulu",
+    "title": "Boat Captain, KoOlina Ocean Adventures, Honolulu",
     "date": "2014-2013",
-    "details": "Captain for tours in cooperation with Disney Aulani, part-time position. As Captain I sailed a handbuilt Hawaiian sailing canoe, taking tourist out on the west side of Oahu",
-    "icon": "work"
+    "details": "My responsibilties included overall safety for crew and customers on the boat and in the water. Attentiveness and the ability to make fast and difficult decisions were essential.",
+    "image": "https://cdn.pixabay.com/photo/2018/08/15/09/52/programmer-3607627_960_720.png"
   },
   {
     "id": 6,
+    "title": "Boat Captain at Hawaiian Ocean Adventure/ Disney Aulani, Honolulu",
+    "date": "2014-2013",
+    "details": "Captain for tours in cooperation with Disney Aulani, part-time position. As Captain I sailed a handbuilt Hawaiian sailing canoe, taking tourist out on the west side of Oahu",
+    "image": "https://cdn.pixabay.com/photo/2018/08/15/09/52/programmer-3607627_960_720.png"
+  },
+  {
+    "id": 7,
     "title": "Store Manager & Master boat builder at Go-Bananas Watersports, Honolulu",
     "date": "2012-2008",
     "details": "Areas of duties inluded custom building of kayaks, training of new personnel and managing the sales floor. As master boat builder I was responsible for the quality control of craftsmanship including plastic welding and repair of kayaks and boards using different construction techniques.",
-    "icon": "work"
+    "image": "https://cdn.pixabay.com/photo/2018/08/15/09/52/programmer-3607627_960_720.png"
+  },
+  {
+    "id": 8,
+    "title": "STCW, Maritime Licence Center, Honolulu",
+    "date": "2008",
+    "details": "Certification and training in fire fighting, personal survival, personal safety and elementary first aid and rescue.",
+    "image": "https://cdn.pixabay.com/photo/2017/10/08/19/52/i-am-a-student-2831334_960_720.png"
+  },
+  {
+    "id": 9,
+    "title": "Master/Mate 100 Tons Unlimited Captain’s Licence, Maritime Licence Center, Honolulu",
+    "date": "2008",
+    "details": "Training and examination course to meet the Coast Guard knowledge requirements with regard to being able, on navigable waters, to take responsibility for the safety of a vessel of 100 tons or less and its passengers and cargo, and be aware of the obligations under Coast Guard regulations concerning safety and the protection of the marine environment",
+    "image": "https://cdn.pixabay.com/photo/2017/10/08/19/52/i-am-a-student-2831334_960_720.png"
   }
 ]

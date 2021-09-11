@@ -3,50 +3,76 @@ describe("User can see list of resume details", () => {
     cy.visit("http://localhost:3000");
     cy.get("#resume-tab").click();
   });
-  it("displays the employment detail", () => {
-    cy.get("employment").within(() => {
+  it("displays the education detail", () => {
+    cy.get("#employment-1").within(() => {
       cy.get("title").should("exist");
       cy.get("date").should("exist");
       cy.get("details").should("exist");
+      cy.get(".image").should("exist");
     });
   });
-  it("displays the skills details", () => {
-    cy.get("skills").within(() => {
-      cy.get("img").should("exist");
-      cy.get("para").should("exist");
-    });
-  });
-  it("displays education details", () => {
-    cy.get("education").within(() => {
+  it("displays the previous employment history detail", () => {
+    cy.get("#employment-2").within(() => {
       cy.get("title").should("exist");
       cy.get("date").should("exist");
-      cy.get("para").should("exist");
+      cy.get("details").should("exist");
+      cy.get(".image").should("exist");
     });
   });
-  it("displays array of items in details section", () => {
-    cy.get("details").within(() => {
-      cy.get("name").should("exist");
-      cy.get("nationality").should("contain", "Dorian Buck");
-      cy.get("nationality").should("contain", "American & Swedish");
-      cy.get("location").should("exist");
-      cy.url().should("contain", "https://goo.gl/maps/2sjjU2UfAYm184hZ8");
-      cy.get("hobbies").should("exist");
-      cy.get("hobbies").should(
-        "contain",
-        "Watersports, Wintersports, riding motorcycle, travel, technology and being outdoors"
-      );
-      cy.get("lang").should("exist");
-      cy.get("lang").should("contain", "English and Swedish");
-      cy.get("keyw").should("exist");
-      cy.get("keyw").should(
-        "contain",
-        "Dynamic, Agile methodoligy, Flexable, Adaptable, Approchable and a Problemsolver"
-      );
-      cy.get("reference").should("exist");
-      cy.get("reference").should(
-        "contain",
-        "References available upon request"
-      );
+  it("displays the previous employment history detail", () => {
+    cy.get("#employment-3").within(() => {
+      cy.get("title").should("exist");
+      cy.get("date").should("exist");
+      cy.get("details").should("exist");
+      cy.get(".image").should("exist");
+    });
+  });
+  it("displays the previous employment history detail", () => {
+    cy.get("#employment-4").within(() => {
+      cy.get("title").should("exist");
+      cy.get("date").should("exist");
+      cy.get("details").should("exist");
+      cy.get(".image").should("exist");
+    });
+  });
+  it("displays the previous employment history detail", () => {
+    cy.get("#employment-5").within(() => {
+      cy.get("title").should("exist");
+      cy.get("date").should("exist");
+      cy.get("details").should("exist");
+      cy.get(".image").should("exist");
+    });
+  });
+  it("displays the previous employment history detail", () => {
+    cy.get("#employment-6").within(() => {
+      cy.get("title").should("exist");
+      cy.get("date").should("exist");
+      cy.get("details").should("exist");
+      cy.get(".image").should("exist");
+    });
+  });
+  it("displays the previous employment history detail", () => {
+    cy.get("#employment-7").within(() => {
+      cy.get("title").should("exist");
+      cy.get("date").should("exist");
+      cy.get("details").should("exist");
+      cy.get(".image").should("exist");
+    });
+  });
+  it("displays the education detail", () => {
+    cy.get("#employment-8").within(() => {
+      cy.get("title").should("exist");
+      cy.get("date").should("exist");
+      cy.get("details").should("exist");
+      cy.get(".image").should("exist");
+    });
+  });
+  it("displays the education detail", () => {
+    cy.get("#employment-9").within(() => {
+      cy.get("title").should("exist");
+      cy.get("date").should("exist");
+      cy.get("details").should("exist");
+      cy.get(".image").should("exist");
     });
   });
 });
