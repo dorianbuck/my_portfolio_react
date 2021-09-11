@@ -15,7 +15,7 @@ const Contact = () => {
             "linear-gradient(to right, rgb(245, 223, 77) 0%, rgb(147, 149, 151) 100%)",
         }}
       >
-        <Fade top big>
+        <Fade top>
           <h1 id="contact">Contact</h1>
         </Fade>
         <Bounce>

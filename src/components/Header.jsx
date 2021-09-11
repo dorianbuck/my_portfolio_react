@@ -63,7 +63,6 @@ export default class MenuTabularOnTop extends Component {
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
   render() {
-
     const { activeItem } = this.state;
     return (
       <Menu attached="top" tabular>
@@ -75,7 +74,6 @@ export default class MenuTabularOnTop extends Component {
           icon="briefcase"
           active={activeItem === "my portfolio"}
           onClick={this.handleItemClick}
-
         />
         <Menu.Item
           position="right"
@@ -95,8 +93,16 @@ export default class MenuTabularOnTop extends Component {
           onClick={this.handleItemClick}
         />
         <Menu.Item
+          id="resume-tab"
+          name="my resume"
+          as={NavLink}
+          to={{ pathname: "/resume" }}
+          active={activeItem === "my resume"}
+          onClick={this.handleItemClick}
+        />
+        <Menu.Item
           id="contact-tab"
-          name="Contact"
+          name="contact"
           as={NavLink}
           to={{ pathname: "/contact" }}
           active={activeItem === "contact"}
