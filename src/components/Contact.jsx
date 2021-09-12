@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Image, Segment } from "semantic-ui-react";
-import BeerImg from "../images/beer.svg";
+import BeerImg from "../images/sync.svg";
 import ContactForm from "./ContactForm";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
@@ -23,7 +23,7 @@ const Contact = () => {
         </Bounce>
         <Fade right big>
           <Image
-            centered
+            verticalAlign="top"
             src={BeerImg}
             alt="contact"
             as="a"
