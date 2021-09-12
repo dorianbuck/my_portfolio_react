@@ -22,7 +22,7 @@ const Resume = () => {
     );
   });
   return (
-    <Container text>
+    <Container text textAlign="center">
       <Fade top>
         <h1 id="resume-header">My Resume</h1>
       </Fade>

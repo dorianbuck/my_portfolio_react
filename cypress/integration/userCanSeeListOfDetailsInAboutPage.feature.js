@@ -2,7 +2,7 @@ describe("User can see list of about details", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000");
     cy.get("#about-tab").click();
-    cy.get(".ui").trigger("mouseover");
+    cy.get("segment").trigger("mouseover");
     cy.get(".popover").should("be.visible");
   });
 

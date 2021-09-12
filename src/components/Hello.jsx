@@ -20,7 +20,7 @@ const Hello = () => {
         <Fade right>
           <p>
             This is my simple portfolio! Within you'll find a small collection
-            with some of projects I've been working on. Feel free to contact me
+            of some projects I've been working on. Feel free to contact me
             with any questions you might have.
           </p>
         </Fade>

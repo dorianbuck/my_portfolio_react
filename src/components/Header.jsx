@@ -3,52 +3,46 @@
 // import { NavLink, Link } from "react-router-dom";
 
 // const Header = () => {
-//   const [activeItem, setActiveItem] = useState([]);
+//   const [activeItem, setActiveItem] = useState();
 
-//   useEffect(() => {}, []);
-//   let handleItemClick =
-//     ((e, { name }) => {
-//       setActiveItem({ activeItem: name });
-//       return () => {
-//         <Menu attached="top" tabular>
-//           <Menu.Item
-//             id="header"
-//             name="my portfolio"
-//             as={Link}
-//             to={{ pathname: "/" }}
-//             icon="briefcase"
-//             active={activeItem === "my portfolio"}
-//             onClick={this.handleItemClick}
-//           />
-//           <Menu.Item
-//             position="right"
-//             id="about-tab"
-//             name="about me"
-//             as={NavLink}
-//             to={{ pathname: "/about" }}
-//             active={activeItem === "about me"}
-//             onClick={this.handleItemClick}
-//           />
-//           <Menu.Item
-//             id="projects-tab"
-//             name="my projects"
-//             as={NavLink}
-//             to={{ pathname: "/projects" }}
-//             active={activeItem === "my projects"}
-//             onClick={this.handleItemClick}
-//           />
-//           <Menu.Item
-//             id="contact-tab"
-//             name="Contact"
-//             as={NavLink}
-//             to={{ pathname: "/contact" }}
-//             active={activeItem === "contact"}
-//             onClick={this.handleItemClick}
-//           />
-//         </Menu>;
-//       };
-//     },
-//     []);
+//   return () => {
+//     <Menu attached="top" tabular>
+//       <Menu.Item
+//         id="header"
+//         name="my portfolio"
+//         as={Link}
+//         to={{ pathname: "/" }}
+//         icon="briefcase"
+//         active={activeItem === "my portfolio"}
+//         onClick={setActiveItem}
+//       />
+//       <Menu.Item
+//         position="right"
+//         id="about-tab"
+//         name="about me"
+//         as={NavLink}
+//         to={{ pathname: "/about" }}
+//         active={activeItem === "about me"}
+//         onClick={setActiveItem}
+//       />
+//       <Menu.Item
+//         id="projects-tab"
+//         name="my projects"
+//         as={NavLink}
+//         to={{ pathname: "/projects" }}
+//         active={activeItem === "my projects"}
+//         onClick={setActiveItem}
+//       />
+//       <Menu.Item
+//         id="contact-tab"
+//         name="Contact"
+//         as={NavLink}
+//         to={{ pathname: "/contact" }}
+//         active={activeItem === "contact"}
+//         onClick={setActiveItem}
+//       />
+//     </Menu>;
+//   };
 // };
 
 // export default Header;

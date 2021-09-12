@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "My First Website",
-      "image": "https://picsum.photos/200",
+      "image": "https://image.freepik.com/free-vector/www-concept-illustration_114360-2143.jpg",
       "description": "This was my first project.",
       "popupHeader": "Click me for more Info!",
       "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "FizzBuzz",
-      "image": "https://picsum.photos/200",
+      "image": "https://image.freepik.com/free-vector/design-inspiration-concept-illustration_114360-4191.jpg",
       "description": "Creating ruby backend application is fun.",
       "popupHeader": "Click me for more Info!",
       "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Mobile UX",
-      "image": "https://picsum.photos/200",
+      "image": "https://image.freepik.com/free-vector/website-creator-concept-illustration_114360-3315.jpg",
       "description": "I like to design for the mobile platform",
       "popupHeader": "Click me for more Info!",
       "popupLink": "https://github.com/dorianbuck/fizz_buzz_aug2021/tree/main"

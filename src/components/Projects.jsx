@@ -34,6 +34,9 @@ const Projects = () => {
     </Container>
   );
 };
+export default Projects;
+
+
 
 // class Projects extends Component {
 //   state = {
@@ -64,4 +67,4 @@ const Projects = () => {
 //   }
 // }
 
-export default Projects;
+
