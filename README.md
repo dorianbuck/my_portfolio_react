@@ -3,7 +3,7 @@
 ## Welcome to my first attempt at bilding a portfolio, also first time in react framework. To visit a live version, follow the link below:
 **Deployed at:**
 ```
-<https://dorian-buck-portfolio-2021.netlify.app/>
+[my_portfolio](https://dorian-buck-portfolio-2021.netlify.app/)
 ```
 ### Author
 [Dorian Buck](https://github.com/dorianbuck/)
