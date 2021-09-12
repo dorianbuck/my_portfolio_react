@@ -14,19 +14,19 @@ export default {
       title: "Project One",
       imageSrc: "",
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-      url: ""
+      url: "",
     },
     {
       title: "Project Two",
       imageSrc: "",
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-      url: ""
+      url: "",
     },
     {
       title: "Project Three",
       imageSrc: "",
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-      url: ""
+      url: "",
     },
   ],
 };

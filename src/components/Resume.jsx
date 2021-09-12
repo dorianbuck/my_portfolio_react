@@ -24,7 +24,9 @@ const Resume = () => {
   return (
     <Container text>
       <Fade top>
-        <Header textAlign="center" id="resume-header">My Resume</Header>
+        <Header textAlign="center" id="resume-header">
+          My Resume
+        </Header>
       </Fade>
       <Segment
         content
