@@ -2,34 +2,24 @@ describe("User can see list of about details", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000");
     cy.get("#about-tab").click();
-    cy.get("segment").trigger("mouseover");
-    cy.get(".popover").should("be.visible");
+    cy.get("#about-header").trigger("mouseover");
+    cy.get(".ui.left.center.popup.transition.visible").should("exist");
   });
-
   it("displays a popup with more bio info", () => {
-    cy.get("details").within(() => {
-      cy.get("name").should("exist");
-      cy.get("name").should("contain", "Dorian Buck");
-      cy.get("nationality").should("contain", "American & Swedish");
-      cy.get("location").should("exist");
-      cy.url().should("contain", "Stockholm");
-      cy.get("hobbies").should("exist");
-      cy.get("hobbies").should(
-        "contain",
-        "Watersports, Wintersports, riding motorcycle, travel, technology and being outdoors"
-      );
-      cy.get("lang").should("exist");
-      cy.get("lang").should("contain", "English and Swedish");
-      cy.get("keyw").should("exist");
-      cy.get("keyw").should(
-        "contain",
-        "Dynamic, Agile methodoligy, Flexable, Adaptable, Approchable and a Problemsolver"
-      );
-      cy.get("reference").should("exist");
-      cy.get("reference").should(
-        "contain",
-        "References available upon request"
-      );
+    cy.get(".ui.left.center.popup.transition.visible").within(() => {
+      cy.get(".header").should("exist");
+      cy.get(".header").should("contain", "Dorian Buck");
+      cy.get(".description").should("contain", "American & Swedish");
+      cy.get("#about-1").should("exist");
+      cy.get(".extra").should("contain", "Stockholm, Sweden");
+      cy.get(".description").should("exist");
+      // cy.get(".description").should("contain", "Watersports, Wintersports, riding motorcycle, travel, technology and being outdoors");
+      cy.get(".extra").should("exist");
+      cy.get(".extra").should("contain", "English and Swedish");
+      cy.get(".description").should("exist");
+      // cy.get(".description").should("contain", "Dynamic, Agile methodoligy, Flexable, Adaptable, Approchable and a Problemsolver");
+      cy.get(".extra").should("exist");
+      cy.get(".extra").should("contain", "References available upon request");
     });
   });
 });
