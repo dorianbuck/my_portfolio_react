@@ -19,7 +19,7 @@ class ContactForm extends Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state }),
     })
-      .then(() => alert("Success!"))
+      .then(() => alert("Successfully Sent!"))
       .catch((error) => alert(error));
     e.preventDefault();
   };
@@ -30,36 +30,38 @@ class ContactForm extends Component {
     const { name, email } = this.state;
     return (
       <Container>
-        <Form onSubmit={this.handleSubmit} netlify name="contact">
-          <input type="hidden" name="form-name" value="contact" />
-          <Form.Field>
-            <label>Your Name</label>
-            <input
-              type="text"
-              name="name"
-              value={name}
+        <Form>
+          <form onSubmit={this.handleSubmit} netlify name="contact">
+            <input type="hidden" name="form-name" value="contact" />
+            <Form.Field>
+              <label>Your Name</label>
+              <input
+                type="text"
+                name="name"
+                value={name}
+                onChange={this.handleChange}
+                placeholder="Your name"
+              />
+            </Form.Field>
+            <Form.Field>
+              <label>Your Email</label>
+              <input
+                type="email"
+                name="email"
+                value={email}
+                onChange={this.handleChange}
+                placeholder="name@example.com"
+              />
+            </Form.Field>
+            <Form.Field
+              label="Message"
+              control={TextArea}
+              name="message"
+              placeholder="How can I help you?"
               onChange={this.handleChange}
-              placeholder="Your name"
             />
-          </Form.Field>
-          <Form.Field>
-            <label>Your Email</label>
-            <input
-              type="email"
-              name="email"
-              value={email}
-              onChange={this.handleChange}
-              placeholder="name@example.com"
-            />
-          </Form.Field>
-          <Form.TextArea
-            label="Message"
-            control={TextArea}
-            placeholder="How can I help you?"
-            // value={message}
-            onChange={this.handleChange}
-            />
-          <Button type="submit">Send</Button>
+            <Button type="submit">Send</Button>
+          </form>
         </Form>
       </Container>
     );
