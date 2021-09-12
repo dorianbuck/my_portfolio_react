@@ -3,9 +3,9 @@ import { Card, Image, Popup } from "semantic-ui-react";
 
 const ProjectCard = ({ project }) => {
   return (
-    <Popup 
+    <Popup link 
       trigger={
-        <Card>
+        <Card href={project.url} >
           <Image src={project.image} wrapped ui={false} />
           <Card.Content>
             <Card.Header>{project.name}</Card.Header>
