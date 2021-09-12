@@ -1,22 +1,23 @@
 import React from "react";
 import { Card, Image, Popup } from "semantic-ui-react";
+import Fade from "react-reveal/Fade";
 
 const ProjectCard = ({ project }) => {
   return (
-    <Popup link 
+    <Popup
+      link
       trigger={
-        <Card href={project.url} >
+        <Card href={project.url}>
           <Image src={project.image} wrapped ui={false} />
           <Card.Content>
             <Card.Header>{project.name}</Card.Header>
-
             <Card.Description>{project.description}</Card.Description>
           </Card.Content>
         </Card>
       }
     >
       <Popup.Content>
-        <Popup.Header inverted >{project.popupHeader}</Popup.Header>
+        <Popup.Header inverted>{project.popupHeader}</Popup.Header>
       </Popup.Content>
     </Popup>
   );
