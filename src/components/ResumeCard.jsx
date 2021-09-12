@@ -3,7 +3,7 @@ import { Item, Label, Image, Divider } from "semantic-ui-react";
 
 const ResumeCard = ({ employment }) => {
   return (
-    <Item.Group divided link>
+    <Item.Group divided link href={employment.url} target="_blank">
       <Item>
         <Item.Image size="tiny">
           <Image src={employment.image} />
@@ -15,11 +15,12 @@ const ResumeCard = ({ employment }) => {
           <Item.Description>{employment.details}</Item.Description>
           <Item.Extra>
             <Label>{employment.date}</Label>
-            <Label icon="globe" content="Additional Languages" />
           </Item.Extra>
         </Item.Content>
       </Item>
-        <Divider horizontal inverted>♡</Divider>
+      <Divider horizontal inverted>
+        ♡
+      </Divider>
     </Item.Group>
   );
 };

@@ -12,7 +12,7 @@
 ## Getting started
 ### Dependencies  
 * Yarn
-* React
+* React 17.0.2
 * Cypress
 * React-router
 * Axios
