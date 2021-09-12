@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Image, Popup } from "semantic-ui-react";
-import Fade from "react-reveal/Fade";
 
 const ProjectCard = ({ project }) => {
   return (
