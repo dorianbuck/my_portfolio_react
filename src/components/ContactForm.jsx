@@ -30,38 +30,36 @@ class ContactForm extends Component {
     const { name, email } = this.state;
     return (
       <Container>
-        <Form>
-          <form onSubmit={this.handleSubmit} netlify name="contact">
-            <input type="hidden" name="form-name" value="contact" />
-            <Form.Field>
-              <label>Your Name</label>
-              <input
-                type="text"
-                name="name"
-                value={name}
-                onChange={this.handleChange}
-                placeholder="Your name"
-              />
-            </Form.Field>
-            <Form.Field>
-              <label>Your Email</label>
-              <input
-                type="email"
-                name="email"
-                value={email}
-                onChange={this.handleChange}
-                placeholder="name@example.com"
-              />
-            </Form.Field>
-            <Form.Field
-              label="Message"
-              control={TextArea}
-              name="message"
-              placeholder="How can I help you?"
+        <Form onSubmit={this.handleSubmit} netlify name="contact">
+          <input type="hidden" name="form-name" value="contact" />
+          <Form.Field>
+            <label>Your Name</label>
+            <input
+              type="text"
+              name="name"
+              value={name}
               onChange={this.handleChange}
+              placeholder="Your name"
             />
-            <Button type="submit">Send</Button>
-          </form>
+          </Form.Field>
+          <Form.Field>
+            <label>Your Email</label>
+            <input
+              type="email"
+              name="email"
+              value={email}
+              onChange={this.handleChange}
+              placeholder="name@example.com"
+            />
+          </Form.Field>
+          <Form.Field
+            label="Message"
+            control={TextArea}
+            name="message"
+            placeholder="How can I help you?"
+            onChange={this.handleChange}
+          />
+          <Button type="submit">Send</Button>
         </Form>
       </Container>
     );
